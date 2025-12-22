@@ -55,4 +55,12 @@ console.log(typeof object)
 // 2) object
 
 
+// OPERATORS
+//============
+
+
+//ARITHMETIC OPERATORS
+
+//   + , - , * , / , % , **
+
 
