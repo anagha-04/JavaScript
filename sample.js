@@ -61,6 +61,11 @@ console.log(typeof object)
 
 //ARITHMETIC OPERATORS
 
-//   + , - , * , / , % , **
+//   + , - , * , / , %reminder , **exponential , ++ increment , -- decrement
 
+
+num1 = 10
+num2 = 20
+
+//console.log(num1+num2)
 
