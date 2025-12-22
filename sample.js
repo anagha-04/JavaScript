@@ -24,7 +24,7 @@ console.log(name)    // (print) >> value assigined in a variable can be changed
 
 // console.log(age)
 
-// Datatypes
+//  PRIMITIVE DATATYPES
 
 // 1) Number
 // 2) string
@@ -47,6 +47,12 @@ var object;
 
 console.log(typeof object)
 
+
+
+// NON-PRIMITIVE DATATYPES
+
+// 1) array
+// 2) object
 
 
 
