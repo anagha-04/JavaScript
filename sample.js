@@ -86,3 +86,12 @@ num1 = 10
 console.log(num1--)  // post-decrement
 console.log(num1)
 
+// COMPARISON OPERATORS
+
+// < , > , <= ,>= , == , ===(strictly equal to)
+
+// a==b  it checks both values are same or not
+
+a = 5 
+
+console.log(a==="5")  // value and dataype 
