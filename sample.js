@@ -69,3 +69,20 @@ num2 = 20
 
 //console.log(num1+num2)
 
+// increment
+
+num1 = 5
+console.log(num1 ++) // first it change the value >> output=5
+console.log(num1) // then it incremented value  (post increment) >> output=6
+
+num2 = 7
+console.log(++num2) // pre increment
+
+
+
+// decrement
+
+num1 = 10
+console.log(num1--)  // post-decrement
+console.log(num1)
+
