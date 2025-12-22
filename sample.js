@@ -95,3 +95,63 @@ console.log(num1)
 a = 5 
 
 console.log(a==="5")  // value and dataype 
+
+
+
+// LOGICAL OPERATORS
+// ==================
+
+// and >>  a && b   >> return true if a and b are true
+// or >> ||   a||b >> return true if either a or b are true
+// not >> !  a!b >>  return invese of a and b accordingly
+
+
+// ternary operator   (?:)
+// =================
+
+age  = 20
+
+//  condition?true:false
+
+let result =  age > 18 ?"eligible":"not eligible"
+
+console.log(result)
+
+
+// arithmetic , coparison ,logical, ternary ,assignment(= ,+= ,-=,.....)
+
+
+
+// CONDITIONAL STATEMENTS
+
+
+var age = 10;
+
+if (age > 18){
+    console.log("eligible")
+}
+
+else{
+    console.log("not eligible")
+}
+
+
+
+
+var age = 20;
+
+if (age<18){
+    console.log("not"
+    )
+}
+
+else if(age === 18){
+    console.log("okay")
+
+}
+
+else{
+    console.log("eligible")
+
+}
+
