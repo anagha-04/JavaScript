@@ -138,7 +138,7 @@ else{
 
 
 
-var age = 20;
+var age = 40;
 
 if (age<18){
     console.log("not"
