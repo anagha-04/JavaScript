@@ -13,7 +13,7 @@
 
 // count the total number of character in the string
 
-let text = "javascript"
+let text = "javascript"     // index always start from 0.... 
 
 let count =0 
 
