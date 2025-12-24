@@ -23,3 +23,25 @@ for (i = 0;i<text.length;i++){
 }
 
 console.log(count)
+
+
+
+// return the count of a specific character from a string
+
+let char ="mississippi"
+
+let target="s"
+
+let counts = 0
+
+for(i=0;i<char.length;i++){
+
+    if (char[i]==target){
+        counts++
+    }
+}
+
+console.log(counts)
+
+// print the elements at the even index position
+
