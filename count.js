@@ -45,3 +45,13 @@ console.log(counts)
 
 // print the elements at the even index position
 
+
+let texts = "javascript"
+
+for( i = 0;i<texts.length;i++){
+
+    if(i % 2 == 0){
+
+        console.log(texts[i]);
+    }
+}
