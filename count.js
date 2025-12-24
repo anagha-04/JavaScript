@@ -1,0 +1,25 @@
+// count how many numbers are divisible by 3 in 1 and 50
+// let count = 0
+
+// for(i=1; i <=50 ; i++){
+
+//     if(i%3==0){
+
+//         count +=1
+//     }
+
+// }
+// console.log(count)
+
+// count the total number of character in the string
+
+let text = "javascript"
+
+let count =0 
+
+for (i = 0;i<text.length;i++){
+
+    count +=1
+}
+
+console.log(count)
