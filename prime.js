@@ -6,19 +6,18 @@
 
 
 let number = 7
-isPrime = true
+if (number>1){
+    isPrime=true
+    for(let i = 2; i < number; i++){
 
-for(let i = 2; i < number; i++){
-
-    if(number % i == 0){
+       if(number % i == 0){
         isPrime = false
         break
+       }
     }
+    console.log(isPrime == true?"prime number":"not prime")
 
 }
-if(isPrime==true){
-    console.log("number is prime")
-}
 else{
-    console.log("number is not prime")
+    console.log("enter a value greater than one")
 }
