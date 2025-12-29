@@ -1,10 +1,9 @@
-// identify the total number of prime numbers in a given range
-
+// identify the largest prime number in the given range
 
 
 let startNum = 1;
 let stopNum = 20;
-let count = 0;
+let largestPrime = -1;
 
 for (let num = startNum; num <= stopNum; num++) {
     let isPrime = true;
@@ -21,8 +20,8 @@ for (let num = startNum; num <= stopNum; num++) {
     }
 
     if (isPrime == true) {
-        count = count + 1;
+        largestPrime = num;
     }
 }
 
-console.log("total prime numbers:", count);
+console.log("Largest prime number:", largestPrime);
