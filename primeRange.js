@@ -25,6 +25,6 @@ for (let number = start; number<= stop; number++){
 }
 
 
-// identify the total number of prime numbers in a given range
 
-// identify the largest prime number in the given range
+
+
