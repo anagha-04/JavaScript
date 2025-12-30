@@ -31,11 +31,11 @@ while(i<=30){
     
 }
 
-// print the numbers divisible by both 3 and 5 from 13 to 30
+// print the numbers divisible by both 3 and 5 from 13 to 105
 
 let num = 13;
 
-while (num <= 30) {
+while (num <= 105) {
     if (num % 3 == 0 && num % 5 == 0) {
         console.log(num);
     }
