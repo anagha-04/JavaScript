@@ -1,3 +1,23 @@
 // a number that equal the sum of its own digit,
 // each raised to the power of the total number of digits in the number
 // 153 >>> 1^3 + 5^3 + 3^3 = 153 is armstrong number
+
+
+let num = 153
+
+original_num = num
+
+let sum = 0
+
+len =String(num).length
+
+while(num>0){
+
+    lastdigit = num % 10
+
+    sum += lastdigit ** len
+
+    num = Math.floor(num/10)
+}
+
+console.log(sum==original_num?"armstrong number":"not amrstrong")
