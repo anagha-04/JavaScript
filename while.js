@@ -21,23 +21,41 @@
 // }
 
 //  even numbers
-let i = 30;
+// let i = 30;
 
-while(i<=30){
-    if(i%2==0){
-        console.log(i)
-    }
-    i++;
+// while(i<=30){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+//     i++;
     
-}
+// }
 
 // print the numbers divisible by both 3 and 5 from 13 to 105
 
-let num = 13;
+// let num = 13;
 
-while (num <= 105) {
-    if (num % 3 == 0 && num % 5 == 0) {
-        console.log(num);
+// while (num <= 105) {
+//     if (num % 3 == 0 && num % 5 == 0) {
+//         console.log(num);
+//     }
+//     num++;
+// }
+
+// find the sum of even numbers from 3 to 21
+
+
+let i = 3;
+
+let sum = 0;
+
+while(i <= 21){
+
+    if(i % 2 == 0){
+        sum += i
     }
-    num++;
+
+    i++
 }
+console.log(sum);
+
