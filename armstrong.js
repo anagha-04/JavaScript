@@ -21,3 +21,38 @@ while(num>0){
 }
 
 console.log(sum==original_num?"armstrong number":"not amrstrong")
+
+
+// find the sum of prime numbers in a given range
+
+let start = 4
+
+let stop = 30
+
+let sums = 0
+
+for (let num = start; num <= stop; num++) {
+
+    if (num > 1) {
+
+        let isPrime = true;
+
+        for (let i = 2; i < num; i++) {
+
+            if (num % i == 0) {
+
+                isPrime = false;
+
+                break;
+            }
+        }
+
+        if (isPrime) {
+            
+            sums += num;
+        }
+    }
+}
+
+console.log(sums);
+
