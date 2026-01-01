@@ -14,7 +14,7 @@ text = "js is easy and js is powerful"
 // find the unique words from the text given and add them to a array
 result =[]
 unique = new Set(text.split(" "))
-for(i of unique){  // here not picking elements using index .taking elements direct
+for(i of unique){      // here not picking elements using index .taking elements direct
     result.push(i)
 }
 console.log(result)
