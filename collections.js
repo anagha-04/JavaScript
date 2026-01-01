@@ -37,3 +37,17 @@ for(let i = start; i<=stop; i++){
     }
 }
 console.log(evenNums)
+
+// set
+// ===
+
+// unordered
+// no index position
+// duplicate not allowed
+// Set() to define a set object
+
+// let elements = new set()  //new is a keyword to set an object to a memory
+
+// let elements = new set("programming")
+// console.log(elements)
+//{'p','r','o','g','a','m','i','n'}
