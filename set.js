@@ -27,3 +27,37 @@ for(i of unique){      // here not picking elements using index .taking elements
 }
 
 console.log(result)
+
+
+// objects and map
+
+// object -> map(modern application,api fetch)
+
+
+
+let student = {
+
+    name : "Rahul",
+    age : 32,
+    course:"js"
+}
+
+
+// objects are key value collections
+//  key string
+//  order is not guaranted
+// console.log(student(object name).name(key)    output: Rahul
+
+
+//  map
+
+let elements = new Map()
+
+// Map doest not convert keys to the strings
+// Add or update key value pair in map : set()
+
+// set(Key,value)
+
+elements.set("name","anagha")
+console.log(elements)
+//  keys can be of  dataype
