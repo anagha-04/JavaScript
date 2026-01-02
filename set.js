@@ -61,3 +61,6 @@ let elements = new Map()
 elements.set("name","anagha")
 console.log(elements)
 //  keys can be of  dataype
+//  if key already exists the value will be updated
+// elements.set("name","arjun")
+// console.log(elements)
