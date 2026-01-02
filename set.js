@@ -64,3 +64,14 @@ console.log(elements)
 //  if key already exists the value will be updated
 // elements.set("name","arjun")
 // console.log(elements)
+
+
+// get(key)  to retrive the value of the key in the map objects
+console.log(elements.get("name"))
+console.log(elements.get("age"))  // undefined
+
+
+// has(key)  check if the key  is pesent(true) else false
+
+console.log(elements.has("name")) 
+console.log(elements.has("age")) 
