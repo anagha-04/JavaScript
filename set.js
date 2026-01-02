@@ -1,32 +1,32 @@
 // add odd num to a set 
 
-num = [5,6,1,3,8,9,4]
+// num = [5,6,1,3,8,9,4]
 
-odd = new Set()
+// odd = new Set()
 
-for(i=0;i<num.length;i++){
+// for(i=0;i<num.length;i++){
 
-    if(num[i]%2!=0){
+//     if(num[i]%2!=0){
 
-        odd.add(num[i])
-    }
-}
-console.log(odd) 
+//         odd.add(num[i])
+//     }
+// }
+// console.log(odd) 
 
-text = "js is easy and js is powerful"
+// text = "js is easy and js is powerful"
 
 // find the unique words from the text given and add them to a array
-result =[]
+// result =[]
 
-unique = new Set(text.split(" "))
+// unique = new Set(text.split(" "))
 
-for(i of unique){      // here not picking elements using index .taking elements direct
+// for(i of unique){      // here not picking elements using index .taking elements direct
 
-    result.push(i)
+//     result.push(i)
 
-}
+// }
 
-console.log(result)
+// console.log(result)
 
 
 // objects and map
@@ -75,3 +75,33 @@ console.log(elements.get("age"))  // undefined
 
 console.log(elements.has("name")) 
 console.log(elements.has("age")) 
+
+
+// .delete(key)
+elements.delete("name")   //true/false
+
+// .clear(key)
+elements.clear()
+
+// .size: total number of key value in the map.  size is a property not a method
+elements.size
+
+// keys()
+console.log(elements.keys())
+
+// values()
+
+
+// how many times each word appears 
+let text = "javascript is easy and javascript is powerfull"
+
+count = new Map()
+
+let words = text.split(" ")
+
+console.log(words)
+
+for(let i of words){
+    count.set(i, (count.get(i) || 0)+1)
+}
+console.log(count)
