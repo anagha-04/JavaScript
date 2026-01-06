@@ -206,3 +206,30 @@ manifunction(addNums,10,20)
 const adds = (a,b)=> a+b
 
 console.log(adds(10,56))
+
+// find the square of a given number
+
+const square= (a)=>a**2
+
+console.log(square(3))
+
+
+// check a number is even or odd
+
+
+const checkEvenOdd=(num)=>(num%2==0? "Even":"odd")
+console.log(checkEvenOdd(4))
+
+// check largest among two numbers
+
+const lagest=(a,b)=>(a>b ? a:b)
+console.log(lagest(2,3))
+
+
+// fetch()
+
+// to fetch the data from a server json
+
+// fetch(url)
+
+// function sends a request to the url
