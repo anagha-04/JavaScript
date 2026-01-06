@@ -179,3 +179,30 @@ function addNums(num1,num2){
 }
 
 manifunction(addNums,10,20)
+
+
+// Arrow function
+
+// shorter way to write the function in js
+
+
+// function details(name,age){
+
+//     console.log(name)
+//     console.log(age)
+// }
+
+
+// const details =(name,age)=>{
+//     console.log(name)
+//     console.log(age)
+// }
+
+
+// add two numbers
+// ===============
+
+
+const adds = (a,b)=> a+b
+
+console.log(adds(10,56))
