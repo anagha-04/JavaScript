@@ -76,3 +76,55 @@ function largestNum(num1,num2,num3){
 }
 
 largestNum(96,66,6)
+
+
+
+
+//  define a fun which accpts two values
+// return true if 2 nmbers are even
+// return false if any of them is even
+
+
+function evennum(a,b){
+
+    if(a%2==0 && b%2==0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+console.log(evennum(2,4))
+
+console.log(evennum(2,5))
+
+
+
+// define a fn named apiresponse which accepts the status value
+// if status value equals 200 return "success"
+// if status value equals to 404 return "page not found"
+// if status value equals to 500 return "server error"
+// if any other value  return "server crashed"
+
+
+
+
+function apiresponse(status){
+
+    if(status == 200){
+        return "success"
+    }
+    else if(status==404){
+        return "page not found"
+    }
+    else if(status==500){
+        return "server error"
+    }
+    else{
+        return "server crashed"
+    }
+}
+console.log(apiresponse(200))
+console.log(apiresponse(404))
+console.log(apiresponse(500))
+console.log(apiresponse(300))
