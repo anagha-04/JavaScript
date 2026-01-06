@@ -54,3 +54,25 @@ function addNum(num1 , num2){
 let result = addNum(10,20)
 
 console.log(result)
+
+
+//  define a function to check the largest among the three numbers
+
+
+function largestNum(num1,num2,num3){
+
+    if (num1>num2 && num1>num3){
+
+        console.log(num1)
+    }
+    else if(num2>num1 && num2>num3){
+
+        console.log(num2)
+    }
+    else{
+        console.log(num3)
+    }
+
+}
+
+largestNum(96,66,6)
