@@ -160,3 +160,22 @@ function prime(num){
     return "prime"
 }
 console.log(prime(7))
+
+
+// callback function using parameters
+// execution of one function is depend on another
+// result is not available immediately
+// used for asynchrous function
+
+function manifunction(callback,num1,num2){
+
+    callback(num1,num2)
+}
+function addNums(num1,num2){
+
+    sum = num1+num2
+    console.log(sum)
+
+}
+
+manifunction(addNums,10,20)
