@@ -143,3 +143,20 @@ function sayHello(){
     console.log("hello")
 }
 Greet(sayHello)
+
+
+// define a function to check a given number is prime or not
+
+function prime(num){
+
+    if(num<=1){
+        return "not prime"
+    }
+    for(let i = 2;i<num;i++){
+        if(num%i == 0){
+            return "not prime"
+        }
+    }
+    return "prime"
+}
+console.log(prime(7))
