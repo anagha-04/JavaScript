@@ -41,3 +41,16 @@ addNum(num1 = 3, num2 = 2)
 
 
 //  function with return value
+
+function addNum(num1 , num2){
+
+
+    sum = num1+num2
+
+    return sum  //which returns a specific value (outside) where  the function is called
+
+}
+
+let result = addNum(10,20)
+
+console.log(result)
