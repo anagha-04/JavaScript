@@ -108,7 +108,6 @@ console.log(evennum(2,5))
 
 
 
-
 function apiresponse(status){
 
     if(status == 200){
@@ -128,3 +127,19 @@ console.log(apiresponse(200))
 console.log(apiresponse(404))
 console.log(apiresponse(500))
 console.log(apiresponse(300))
+
+
+// callback function
+
+// a function(B) is passed as an argument for a main function(A) in  which A will be executed later
+
+function Greet(callback){
+
+    callback()
+}
+
+function sayHello(){
+
+    console.log("hello")
+}
+Greet(sayHello)
