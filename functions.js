@@ -233,3 +233,21 @@ console.log(lagest(2,3))
 // fetch(url)
 
 // function sends a request to the url
+
+
+
+// create a function to return the sum of digits of a given number
+// 123
+
+function sumDigits(num1){
+
+    sum = 0
+    while(num1 > 0){
+
+        lastDigit = num1 %10
+        sum +=lastDigit
+        num1 = Math.floor(num1/10)
+    }
+    return sum
+}
+console.log(sumDigits(123))
