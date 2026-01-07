@@ -251,3 +251,25 @@ function sumDigits(num1){
     return sum
 }
 console.log(sumDigits(123))
+
+
+// create a fn to return the total number of digits in a number
+
+
+function total(num){
+
+    num = Math.abs(num)
+
+    let count = 0
+
+    if(num==0)
+        return 1
+
+    while(num > 0){
+
+        count++
+        num = Math.floor(num/10)
+    }
+    return count
+}
+console.log(total(12))
