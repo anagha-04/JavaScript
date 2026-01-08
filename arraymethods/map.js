@@ -49,4 +49,19 @@ console.log(z.filter(y=>y%2!=0))
 
 // find the numbers divisible by 3 and 5
 
-// 
+array = [5,15,30,25,10,8]
+
+console.log(array.filter(t => t%3 == 0 &&  t%5 == 0))
+
+
+// REDUCE
+// =======
+
+n =[5,15,30,25,10,8]
+
+let total = n.reduce(sum,h => {
+    sum+= h
+
+})
+console.log(total)
+
