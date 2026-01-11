@@ -9,12 +9,15 @@
 var salary = 25000
 
 if ( salary>50000){
+
     console.log(salary+(salary*10/100))
 }
 else if (salary>=30000){
+
     console.log(salary+(salary*7/100))
 }
 else {
+    
    console.log(salary+(salary*5/100))
 }
 
