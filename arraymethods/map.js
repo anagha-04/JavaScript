@@ -68,8 +68,11 @@
 // question
 // =========
 // return the product of the even numbers from a array // filter
+
 // find the square of all elements in a array map
+
 // filter the elements which are greater than 20 from the above squared array filter
+
 // find the sum of all elements from the filtered array reduce
 
 
@@ -83,14 +86,17 @@ even = numbers.filter(n => {
 console.log(product)
 
 square = numbers.map(m => m * m)
+
 console.log(square)
 
 
 filtered = square.filter(n => n > 20)
+
 console.log( filtered);
 
 
 sum = filtered.reduce((a,b) => a + b)
+
 console.log( sum);
 
 
