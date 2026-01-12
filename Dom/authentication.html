@@ -11,12 +11,14 @@
     <p>Click the button to get the list of authentication</p>
     <button onclick="listAuth()">Types</button>
     <ol id ="order">Auth Types: </ol>
+    
 
     <script>
 
         function listAuth(){
 
             items = document.getElementById("order")
+            items.innerText= ""
 
             const auths =["basic auth","token auth","session auth","jwt"]
 
