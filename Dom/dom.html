@@ -8,24 +8,32 @@
 </head>
 
 <body>
-    <h1 id ="color">Javascript</h1>
-    <h2 id="hello">Document object model</h2>
-    <button onclick="changeText()">change text</button>
+    <h1 id ="heading1">Javascript</h1>
+    <!-- <h2 id="hello">Document object model</h2>
+    <button onclick="changeText()">change text</button> -->
     <button onclick="changeColor()">change color</button>
 <script>
-    function changeText(){
-        document.getElementById("hello").innerText = "DOM"
+    // function changeText(){
+    //     document.getElementById("hello").innerText = "DOM"
         
-    }
+    // }
 
     function changeColor(){
-        document.getElementById("color").style.color="green"
+        const heading =document.getElementById("heading1")
+
+        if (heading.style.color=="green"){
+            heading.style.color= "red"
+
+        }
+        else(heading.style.color = "green")
     }
 
 </script>
 </body>
 
 </html>
+
+
 <!-- DOM WORK_CYCLE -->
 <!--================-->
 
