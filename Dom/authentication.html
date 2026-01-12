@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Authentications in DRF</h1>
+    <p>Authentication in DRF verifies user identity for API access</p>
+    <p>Click the button to get the list of authentication</p>
+    <button onclick="listAuth()">Types</button>
+    <ol id ="order">Auth Types: </ol>
+
+    <script>
+
+        function listAuth(){
+
+            items = document.getElementById("order")
+
+            const auths =["basic auth","token auth","session auth","jwt"]
+
+            for(let i of auths){
+
+                result=document.createElement("li")
+                result.innerText = i
+                items.append(result)
+
+            }
+
+            // items = document.getElementById("order")
+            // var result = document.createElement("li")  
+            // result.innerText ="basicauthentication "
+            // items.append(result) 
+
+
+            // var result = document.createElement("li")  
+            // result.innerText ="tokenauthentication "
+            // items.append(result)
+
+           
+            // var result = document.createElement("li")  
+            // result.innerText ="sessionauthentication "
+            // items.append(result)
+
+        }
+    </script>
+</body>
+</html>
