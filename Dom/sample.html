@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>List of technologies used in Full Stack</h1>
+    <p>Click the button to show list of tech used</p>
+    <button onclick="listTech()">show list</button>
+    <ol id="tech"> Technologies: </ol>
+    <!-- use the below button to change color of the list to red -->
+    <button onclick="changeColor()">changecolor</button>
+
+    <script>
+        function listTech() {
+
+            items = document.getElementById("tech")
+            items.innerText = ""
+
+            const techs = ["Python", "django", "html", "css", "js", "react"]
+
+            for (let i of techs) {
+
+                result = document.createElement("li")
+                result.innerText = i
+                items.append(result)
+
+            }
+        }
+       function changeColor(){
+
+         const colors =document.getElementById("tech")
+
+        if (colors.style.color=="red"){
+            colors.style.color= "blue"
+
+        }
+        else{colors.style.color = "red"}
+
+
+       }
+    </script>
+
+
+</body>
+
+</html>
