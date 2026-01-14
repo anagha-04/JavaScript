@@ -14,9 +14,11 @@
 
         <input type="number" id="number2" placeholder="enter second number"><br><br>
 
-        <input type="text" name="" id="result">
+        <input type="text" name="" id="result"> <br><br>
 
-        <button onclick="additon()">Sum</button>
+        <button type="button" onclick="additon()">Sum</button> <br> <br>
+        <button type="button" onclick="multiplication()">Product</button> <br><br>
+        <button type=" button" onclick="remainder()">Remainder</button>
 
     </form>
     <script>
@@ -24,10 +26,27 @@
             num1 = document.getElementById("number1").value
             num2 = document.getElementById("number2").value
 
-            let sum = num1 + num2
+            let sum = Number(num1) + Number(num2)
             result = document.getElementById("result")
             result.value = sum
 
+        }
+
+        function multiplication() {
+            n1 = document.getElementById("number1").value
+            n2 = document.getElementById("number2").value
+
+            let Product = Number(n1) * Number(n2)
+            result = document.getElementById("result")
+            result.value = Product
+        }
+        function remainder() {
+            r1 = document.getElementById("number1").value
+            r2 = document.getElementById("number2").value
+
+            let reminder =Number(r1) % Number(r2)
+            result = document.getElementById("result")
+            result.value =reminder
         }
     </script>
 </body>
