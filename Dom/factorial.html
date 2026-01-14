@@ -1,0 +1,33 @@
+<!-- create a html which accept the number and return the factorial while clicking on a button -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>Factoral</h1>
+    <form action="">
+        <input type="number" placeholder="enter the number" id="number1">
+        <br><br>
+        <input type="text" id="result">
+        <button type="button" onclick="factorial()">Submit</button>
+    </form>
+    <script>
+
+        function factorial() {
+        let num = document.getElementById("number1").value;
+        let fact = 1;
+
+        for (let i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+
+        document.getElementById("result").value = fact;
+    }
+
+    
+    </script>
+ </body>
+ </html>
