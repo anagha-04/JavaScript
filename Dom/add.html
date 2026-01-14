@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Addition</h1>
     <form action="">
-        <input type="text" id="num1" placeholder="enter the first number"><br><br>
-        <input type="text" name="" id="num2" placeholder="enter second number"><br><br>
+        <input type="number" id="number1" placeholder="enter the first number"><br><br>
+
+        <input type="number" id="number2" placeholder="enter second number"><br><br>
+
         <input type="text" name="" id="result">
-        
+
+        <button onclick="additon()">Sum</button>
+
     </form>
+    <script>
+        function additon() {
+            num1 = document.getElementById("number1").value
+            num2 = document.getElementById("number2").value
+
+            let sum = num1 + num2
+            result = document.getElementById("result")
+            result.value = sum
+
+        }
+    </script>
 </body>
+
 </html>
